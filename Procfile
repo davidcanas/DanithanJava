@@ -1,0 +1,1 @@
+Worker: java -jar out/artifacts/Danithan/Danithan.jar
