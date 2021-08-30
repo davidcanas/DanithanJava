@@ -15,7 +15,8 @@ repositories {
     maven { url "https://m2.chew.pro/releases" }
 }
 dependencies {
-
+    implementation("org.mongodb:mongo-java-driver:2.12.3")
+    implementation("ch.qos.logback:logback-classic:1.2.3")
     implementation("pw.chew:jda-chewtils:1.21.0")
     implementation("net.dv8tion:JDA:4.3.0_277")
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
